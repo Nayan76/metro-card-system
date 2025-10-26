@@ -1,0 +1,11 @@
+### Process a Journey
+POST http://localhost:8080/api/metro/journey?passengerId=1&cardNumber=CARD001&journeyType=SINGLE
+
+### Get All Transactions
+GET http://localhost:8080/api/metro/transactions
+
+### Get Collection Summary
+GET http://localhost:8080/api/metro/collection-summary
+
+### Get Passenger Summary
+GET http://localhost:8080/api/metro/passenger-summary
