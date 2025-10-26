@@ -16,7 +16,7 @@ services:
       retries: 10
 
   metro-app:
-    image: metro-card-system
+    image: nayan76/metro-card-system
     container_name: metro-app-container
     depends_on:
       mysql-db:
